@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(26, 29, 56);
+}
+#logo {
+    width:100%;
+    border-bottom: solid 6px rgb(54, 30, 119);
+}
+#logoReplace {
+    display: none;
+}
+#logoReplace2 {
+    display: none;
+}
+.text-btn {
+    color: rgb(223, 53, 118);
+}
+.headerNWP {
+    font-size: 28px;
+}
+
+
+@media screen and (min-width: 500px) {
+    #logo {
+        display: none;
+    }
+    #logoReplace {
+        display: block;
+        font-family: Forum;
+    }
+    #logoReplace2 {
+        display: inline-block;
+        filter:blur(0.5px);
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #logoReplace {
+        display: block;
+        font-size: 90px;
+    }
+}
