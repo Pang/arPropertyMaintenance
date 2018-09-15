@@ -1,18 +1,26 @@
 body{
-    background-color: rgb(26, 29, 56);
+    background-color: rgb(255, 255, 255);
 }
+#miniLogo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+}
+hr{
+    display:none;
+}
+
 #logo {
-    width:100%;
-    border-bottom: solid 6px rgb(54, 30, 119);
+    display: block;
+    font-family: Forum;
 }
-#logoReplace {
-    display: none;
+
+nav {
+    border-bottom: solid 4px rgb(53, 118, 223);
 }
-#logoReplace2 {
-    display: none;
-}
+
 .text-btn {
-    color: rgb(223, 53, 118);
+    color: rgb(53, 118, 223);
 }
 .headerNWP {
     font-size: 28px;
@@ -20,23 +28,24 @@ body{
 
 
 @media screen and (min-width: 500px) {
-    #logo {
-        display: none;
+    nav {
+        border:none;
     }
-    #logoReplace {
-        display: block;
-        font-family: Forum;
+    hr{
+        display:block;
     }
-    #logoReplace2 {
-        display: inline-block;
-        filter:blur(0.5px);
-        height: 100px;
-    }
+    
 }
 
 @media screen and (min-width: 1000px) {
-    #logoReplace {
-        display: block;
-        font-size: 90px;
+    #logo{
+        font-size: 80px;
+        display:inline-block;
+    }
+    #miniLogo{
+        width: 120px;
+        display:inline-block;
+        position: relative;
+        top: -15px;
     }
 }
