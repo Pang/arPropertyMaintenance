@@ -9,7 +9,6 @@ body{
 }
 hr{
     display:none;
-    
 }
 
 #logo {
@@ -31,6 +30,18 @@ nav {
 main{
     height:100%;
 }
+
+.imgWork {
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    border: 1px solid rgb(53, 118, 223);
+    margin: 2px 0;
+}
+.imgWork:hover {
+    transform: scale(1.2);
+}
+
 footer {
     position: relative;
     bottom: 0;
@@ -66,6 +77,17 @@ p{
         top: -15px;
     }
     footer{
-        position: absolute;
+        position: relative;
+    }
+    .imgWork {
+        height: 200px;
+        width: 200px;
+        display:inline-block;
+        border: 3px solid rgb(53, 118, 223);
+        margin: 3px 3px;
+    }
+    .workCollection{
+        max-width: 80%;
+        margin:auto;
     }
 }
