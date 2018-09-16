@@ -51,6 +51,22 @@ footer {
     background-color: #f5f5f5;
 }
 
+input[type="text"]{
+    width: 250px;
+    text-align: center;
+}
+
+button[type="submit"]{
+    width: 250px;
+    height: 30px;
+    border: none;
+    background-color: rgb(53, 118, 223);
+    color: white;
+}
+textarea{
+    width: 250px;
+    height: 150px;
+}
 p{
     width: auto;
 }
@@ -62,7 +78,15 @@ p{
     hr{
         display:block;
     }
-    
+    input[type="text"]{
+        width: 450px;
+    }
+    textarea{
+        width: 450px;
+    }
+    button[type="submit"]{
+        width: 450px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -89,5 +113,15 @@ p{
     .workCollection{
         max-width: 80%;
         margin:auto;
+    }
+    textarea{
+        width: 500px;
+        height: 100px;
+    }
+    input[type="text"]{
+        width: 500px;
+    }
+    button[type="submit"]{
+        width: 500px;
     }
 }
