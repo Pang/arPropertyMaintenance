@@ -90,6 +90,10 @@ p{
     button[type="submit"]{
         width: 450px;
     }
+    #gallery{
+        max-width: 650px;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -113,6 +117,10 @@ p{
         border: 3px solid rgb(53, 118, 223);
         margin: 3px 3px;
     }
+    #gallery{
+        max-width: 1050px;
+    }
+
     .workCollection{
         max-width: 80%;
         margin:auto;
