@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
 #miniLogo{
     margin-left: auto;
@@ -140,5 +140,14 @@ p{
         display: inline-block;
         padding: 20px 80px 30px 80px;
         border-radius: 2%;
+        filter: drop-shadow(3px 3px 4px #bbb);
+    }
+    hr{
+        display:none;
+    }
+    .masthead{
+        background-color: rgb(243, 243, 243);
+        padding:30px;
+        filter: drop-shadow(3px 3px 4px #bbb);
     }
 }
