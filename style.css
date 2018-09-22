@@ -30,7 +30,13 @@ nav {
 main{
     height:100%;
 }
+.stockPhoto {
+    height: 200px;
+    width: 300px;
+    border-bottom: 4px solid rgb(53, 118, 223);
+    filter: drop-shadow(3px 3px 4px #888);
 
+}
 .imgWork {
     height: 100px;
     width: 100px;
@@ -94,6 +100,10 @@ p{
         max-width: 650px;
         margin: auto;
     }
+    .stockPhoto {
+        height: 350px;
+        width: 90%;
+    }
 }
 
 @media screen and (min-width: 1100px) {
@@ -110,6 +120,11 @@ p{
     footer{
         position: relative;
     }
+
+    .stockPhoto {
+        height: 350px;
+        width: 500px;
+    }
     .imgWork {
         height: 160px;
         width: 160px;
@@ -121,9 +136,8 @@ p{
     #intro {
         display: inline-block;
         position: relative;
-        top:-100px;
+        top:70px;
         max-width: 40%;
-
     }
     #gallery{
         display: inline-block;
