@@ -31,11 +31,9 @@ main{
     height:100%;
 }
 .stockPhoto {
-    height: 200px;
-    width: 300px;
+    width: 100%;
     border-bottom: 4px solid rgb(53, 118, 223);
     filter: drop-shadow(3px 3px 4px #777);
-
 }
 
 footer {
