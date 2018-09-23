@@ -114,13 +114,20 @@ p{
     .stockPhoto {
         height: 350px;
         width: 500px;
+ 
     }
 
     #intro {
         display: inline-block;
         position: relative;
-        top:70px;
         max-width: 40%;
+        background-color: rgb(233, 233, 233);
+        padding:20px 10px;
+        border-bottom: solid 4px rgb(53, 118, 223); 
+        height:350px; 
+        width:500px;  
+        vertical-align: top;
+        filter: drop-shadow(3px 3px 4px #777);
     }
     #gallery{
         display: inline-block;
@@ -156,5 +163,9 @@ p{
         background-color: rgb(230, 230, 230);   
         padding:30px;
         filter: drop-shadow(3px 3px 4px #777);
+    }
+
+    .headerNWP {
+        margin-top:40px;
     }
 }
