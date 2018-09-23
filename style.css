@@ -160,11 +160,14 @@ p{
         display:none;
     }
     .masthead{
-        background-color: rgb(230, 230, 230);   
         padding:30px;
-        filter: drop-shadow(3px 3px 4px #777);
     }
 
+    hr{
+        border-bottom: solid 2px rgb(53, 118, 223);
+        width: 400px;
+        display:block;
+    }
     .headerNWP {
         margin-top:40px;
     }
