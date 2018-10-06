@@ -26,13 +26,25 @@ nav {
 .text-btn {
     color: rgb(53, 118, 223);
 }
-main{
-    height:100%;
-}
+
 .stockPhoto {
     width: 100%;
     border-bottom: 4px solid rgb(53, 118, 223);
     filter: drop-shadow(3px 3px 4px #777);
+}
+
+.photoBanner {
+    filter: drop-shadow(3px 3px 4px #777);
+    text-align: center;
+    margin: auto;
+    display: none;
+}
+.photoBanner > div > img {
+    margin: 0 auto;
+    display: block;
+    float: left;
+    clear: right;
+    width: 100%
 }
 
 footer {
@@ -63,8 +75,17 @@ textarea{
 p{
     width: auto;
 }
-
+li {
+    font-weight: bold;
+    font-style: italic;
+}
+.details {
+    margin-top: 25px;
+    list-style-type: none;
+    padding-left: 0;
+}
 @media screen and (min-width: 500px) {
+
     nav {
         border:none;
     }
@@ -88,6 +109,16 @@ p{
         width: 500px;
     }
 
+    .photoBanner > div > img {
+        margin: auto;
+    }
+    .img-wrapper {
+        width: 50%;
+        height: auto;
+        overflow: hidden;      /* hide the overflow */
+        float: left;
+    }
+    
     #intro {
         display: inline-block;
         position: relative;
@@ -95,10 +126,10 @@ p{
         height:100%; 
         width:500px; 
         vertical-align: top;
-    }
+
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1050px) {
     #logo{
         font-size: 80px;
         display:inline-block;
@@ -117,6 +148,19 @@ p{
     .stockPhoto {
         height: 310px;
         width: 500px;
+        margin-left: -4px;
+    }
+    .photoBanner {
+        position: relative;
+        vertical-align: top;
+        width: 500px;
+        height: 250px;
+        display: inline-block;
+        overflow: hidden;
+        border-bottom: solid 4px rgb(53, 118, 223);    
+    }
+    .photoBanner > div > img:hover {
+        transform: scale(1.3);
     }
 
     h2{
@@ -124,8 +168,6 @@ p{
     }
 
     #intro {
-        display: inline-block;
-        position: relative;
         background-color: rgb(233, 233, 233);
         padding:20px 10px;
         border-bottom: solid 4px rgb(53, 118, 223); 
@@ -135,6 +177,20 @@ p{
         filter: drop-shadow(3px 3px 4px #777);
     }
 
+    #skills {
+        display: inline-block;
+        position: relative;
+        padding:20px 10px; 
+        height:250px; 
+        width:500px; 
+        vertical-align: top;
+        background-color: rgb(233, 233, 233);
+        padding:20px 10px;
+        border-bottom: solid 4px rgb(53, 118, 223); 
+        vertical-align: top;
+        filter: drop-shadow(3px 3px 4px #777);
+        margin-left: -4px;
+    }
     textarea{
         width: 500px;
         height: 100px;
